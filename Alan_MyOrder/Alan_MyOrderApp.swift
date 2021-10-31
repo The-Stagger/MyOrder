@@ -2,7 +2,7 @@
 //  Alan_MyOrderApp.swift
 //  Alan_MyOrder
 //
-//  Created by Alan Stagg on 2021-10-01.
+//  Created by Alan Stagg on 2021-09-29.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct Alan_MyOrderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FirstScreen(store: Store())
         }
     }
 }
